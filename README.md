@@ -33,10 +33,10 @@ I work at the intersection of **data engineering**, **machine learning**, and **
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 🔗 [Veille SEO Payfit](https://app.dust.tt/share/frame/36d73340-eb44-47fb-b5ac-2abdb4e91c11)
-|                                                            SEO trend tool for PayFit HR company. | `Dust` `ML` |
-| 🔗 [Project Name](https://payfit-seo-spark.lovable.app/) | SEO optimizer app for PayFit HR company. | `Dust` `Pyhton` |
-| 🔗 [Project Name](https://paris-food-creative.lovable.app/) | Short description of what it does and why it matters. | `Lovable` `JavaScript` |
+| 🔗 [UFC Scraping Project](https://github.com/dcineus-eugenia/UFC-sraping-project) | Python scraper collecting UFC fight results, stats and fighter data for sports analytics. | `Python` `BeautifulSoup` `Scraping` |
+| 🔗 [Veille SEO Payfit](https://app.dust.tt/share/frame/36d73340-eb44-47fb-b5ac-2abdb4e91c11) | AI-powered SEO monitoring tool built for Payfit, automating competitive analysis and insights. | `Dust` `Python` `SEO` |
+| 🔗 [Payfit SEO Spark](https://payfit-seo-spark.lovable.app) | Interactive SEO dashboard for Payfit — visualises performance metrics and surfaces SEO opportunities. | `Lovable` `SEO` `Dashboard` |
+| 🔗 [Paris Food Creative](https://paris-food-creative.lovable.app) | Website redesign for a Parisian food brand — modern design and polished user experience. | `Lovable` `Web Design` |`JavaScript` |
 
 ## GitHub Stats
 
