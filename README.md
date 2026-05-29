@@ -34,7 +34,7 @@ I work at the intersection of **data engineering**, **machine learning**, and **
 | Project | Description | Stack |
 |---------|-------------|-------|
 | 🔗 [Veille SEO Payfit](https://app.dust.tt/share/frame/36d73340-eb44-47fb-b5ac-2abdb4e91c11)
-| SEO trend tool for PayFit HR company. | `Dust` `ML` |
+|                                                            SEO trend tool for PayFit HR company. | `Dust` `ML` |
 | 🔗 [Project Name](https://payfit-seo-spark.lovable.app/) | SEO optimizer app for PayFit HR company. | `Dust` `Pyhton` |
 | 🔗 [Project Name](https://paris-food-creative.lovable.app/) | Short description of what it does and why it matters. | `Lovable` `JavaScript` |
 
