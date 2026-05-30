@@ -1,62 +1,154 @@
-DC
-About
-Projects
-Contact
-Data & AI Engineer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damien Cineus — Data & AI Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-Damien
-Cineus
-Building intelligent systems,
-one model at a time.
+  <nav>
+    <span class="nav-name">DC</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-GitHub
-Projects
-↓
-About
-I work at the intersection of data engineering, machine learning, and AI systems. I like building things that learn, adapt, and scale.
+  <header id="hero">
+    <div class="hero-content">
+      <p class="label">Data & AI Engineer</p>
+      <h1>Damien<br>Cineus</h1>
+      <p class="tagline">Building intelligent systems,<br>one model at a time.</p>
+      <div class="hero-links">
+        <a href="https://github.com/dcineus-eugenia" target="_blank" class="btn">GitHub</a>
+        <a href="#projects" class="btn btn-outline">Projects</a>
+      </div>
+    </div>
+    <div class="scroll-hint">↓</div>
+  </header>
 
-Whether it's training models, architecting data pipelines, or shipping APIs — I care about making AI practical and reproducible.
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I work at the intersection of <strong>data engineering</strong>, <strong>machine learning</strong>,
+            and <strong>AI systems</strong>. I like building things that learn, adapt, and scale.
+          </p>
+          <p>
+            Whether it's training models, architecting data pipelines, or shipping APIs —
+            I care about making AI practical and reproducible.
+          </p>
+        </div>
+        <div class="stack-grid">
+          <span>Python</span>
+          <span>PyTorch</span>
+          <span>scikit-learn</span>
+          <span>Pandas</span>
+          <span>SQL</span>
+          <span>Docker</span>
+          <span>FastAPI</span>
+          <span>NumPy</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-Python
-PyTorch
-scikit-learn
-Pandas
-SQL
-Docker
-FastAPI
-NumPy
-Projects
-Python
-Scraping
-BeautifulSoup
-UFC Scraping Project
-Python scraper that collects UFC fight results, statistics, and fighter data. Useful for sports analytics and ML modeling on combat sports.
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
 
-View on GitHub →
-Dust
-Python
-SEO
-Veille SEO Payfit
-AI-powered SEO monitoring tool built for Payfit (HR company). Automates competitive SEO analysis and delivers actionable insights.
+        <article class="project-card">
+          <div class="card-tags"><span>Python</span><span>Scraping</span><span>BeautifulSoup</span></div>
+          <h3>UFC Scraping Project</h3>
+          <p>Python scraper that collects UFC fight results, statistics, and fighter data. Useful for sports analytics and ML modeling on combat sports.</p>
+          <a href="https://github.com/dcineus-eugenia/UFC-sraping-project" target="_blank" class="card-link">View on GitHub →</a>
+        </article>
 
-View project →
-Lovable
-SEO
-Dashboard
-Payfit SEO Spark
-Interactive SEO dashboard for Payfit — visualises performance metrics and surfaces SEO opportunities in real time.
+        <article class="project-card">
+          <div class="card-tags"><span>Dust</span><span>Python</span><span>SEO</span></div>
+          <h3>Veille SEO Payfit</h3>
+          <p>AI-powered SEO monitoring tool built for Payfit (HR company). Automates competitive SEO analysis and delivers actionable insights.</p>
+          <a href="https://app.dust.tt/share/frame/36d73340-eb44-47fb-b5ac-2abdb4e91c11" target="_blank" class="card-link">View project →</a>
+        </article>
 
-View live app →
-Lovable
-Web Design
-Paris Food Creative
-Refonte de site web pour une marque culinaire parisienne — design moderne, identité visuelle forte et expérience utilisateur soignée.
+        <article class="project-card">
+          <div class="card-tags"><span>Lovable</span><span>SEO</span><span>Dashboard</span></div>
+          <h3>Payfit SEO Spark</h3>
+          <p>Interactive SEO dashboard for Payfit — visualises performance metrics and surfaces SEO opportunities in real time.</p>
+          <a href="https://payfit-seo-spark.lovable.app" target="_blank" class="card-link">View live app →</a>
+        </article>
 
-View live site →
-Let's talk
-Open to collaborations, freelance projects, and interesting problems.
+        <article class="project-card">
+          <div class="card-tags"><span>Lovable</span><span>Web Design</span></div>
+          <h3>Paris Food Creative</h3>
+          <p>Website redesign for a Parisian food brand — modern design, strong visual identity and polished user experience.</p>
+          <a href="https://paris-food-creative.lovable.app" target="_blank" class="card-link">View live site →</a>
+        </article>
 
-GitHub
-Email
-LinkedIn
-© 2026 Damien Cineus
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container contact-container">
+      <h2>Let's talk</h2>
+      <p>Open to collaborations, freelance projects, and interesting problems.</p>
+      <div class="contact-links">
+        <a href="https://github.com/dcineus-eugenia" target="_blank">GitHub</a>
+        <a href="mailto:your@email.com">Email</a>
+        <a href="#" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Damien Cineus</span>
+  </footer>
+
+  <script>
+    // ── Active nav on scroll ──
+    const sections = document.querySelectorAll('section, header');
+    const navLinks = document.querySelectorAll('nav ul a');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + entry.target.id) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }, { threshold: 0.4 });
+
+    sections.forEach(s => observer.observe(s));
+
+    // ── Fade-in cards on scroll ──
+    const cards = document.querySelectorAll('.project-card');
+    const cardObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, i * 100);
+          cardObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    cards.forEach(card => cardObserver.observe(card));
+
+    // ── Fade-in hero text ──
+    document.querySelector('.hero-content').classList.add('loaded');
+  </script>
+
+</body>
+</html>
